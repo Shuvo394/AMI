@@ -1,0 +1,207 @@
+@import "./vairables";
+
+.about{
+    background-image: url("../assets/images/about-images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .about-bg-wrap {
+        background-color: #00000078;
+
+        .about-wrap {
+            max-width: 100%;
+            min-height: 100vh;
+            text-align: center;
+
+            h1 {
+                color: #fff;
+                font-size: 15vmin;
+                font-family: "Roboto", sans-serif;
+                font-weight: bold;
+                margin-bottom: 5vmin;
+              }
+
+            h3 {
+                color: #fff;
+                font-size: 1.5rem;
+                padding: 0 20%;
+            }
+          }
+      }
+  }
+
+  .feature {
+      @include marginOverflow();
+    .feature-wrap {
+        padding: 20px;
+        border-radius: 10px;
+        .feature-box {
+            margin-bottom: 5rem;
+            
+            i {
+                font-size: 3rem;
+                border-radius: 50%;
+                padding: 20px;
+                background-color: #00CDAC;
+                color: #fff;
+                transition: .5s;
+                margin-bottom: 5vmin;
+                margin-left: 30px;
+    
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    
+                }
+            }
+    
+            h3 {
+                font-size: 1.25rem;
+                margin-bottom: 2rem;
+            }
+    
+            p {
+                font-size: 1rem;
+                line-height: 2;
+                text-align: justify;
+                
+            }
+        }
+        
+    }
+}
+
+.counter {
+    background-image: url("../assets/images/about-images/counter-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .counter-wrap {
+        background-color: #00000078;
+        height: inherit;
+        padding: 10rem 0;
+
+        .counter-box {
+            text-align: center;
+            h3 {
+                font-size: 4rem;
+                color: #00CDAC;
+                font-family: $roboto;
+            }
+            p{
+                color: #fff;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+.manager {
+    @include marginOverflow();
+
+    .manager-heading {
+        hr {
+            width: 20%;
+            margin: 0 auto 2rem;
+            height: 2px;
+            color: #02AAB0;
+        }
+        h2 {
+            margin-bottom: 3rem;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+    }
+    .manage-box {
+        padding: 0 1rem;
+        img {
+            width: 100%;
+            margin-bottom: 2rem;
+            transition: 0.5s all ease-in-out;
+
+            &:hover {
+                transform: translateY(-15px);
+            }
+        }
+
+        .manage-box-text {
+            h4 {
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.review {
+    background-color: #F6F6F7;
+    .review-wrap {
+        text-align: center;
+        padding: 20vmin 0;
+        .review-box {
+            p {
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+            .review-author {
+                img {
+                    width: 100px;
+                    border-radius: 50%;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.footer-top {
+    padding: 20vmin 0;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
+    .footer-box-left {
+        h3 {
+            color: #fff;
+        }
+        p {
+            color: #fff;
+
+            a {
+                text-decoration: none;
+                color: tomato;
+            }
+        }
+    }
+    
+    .footer-box-right {
+        
+    }
+}
+
+.footer-bottom {
+    background-color: #000;
+    p {
+        margin: 0;
+        padding: 1rem 0px;
+        color: #fff;
+        word-spacing: 5px;
+        text-align: center;
+    }
+}
+
+

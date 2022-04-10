@@ -1,0 +1,39 @@
+header {
+    .navbar {
+        background-color: #00000060;
+        transition: 0.5s ease-in-out;
+        button {
+            &:focus {
+                box-shadow: none !important;
+            }
+
+            i {
+                color: #fff;
+
+                
+            }
+        }
+        .navbar-brand {
+            width: 45px;
+            img {
+                width: 100%;
+            }
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #fff;
+                    font-family: $kalam;
+                    margin-left: 2rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: #FFD124;
+                    }
+                }
+            }
+        }
+    }
+}

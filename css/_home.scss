@@ -1,0 +1,76 @@
+
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+    .home-bg-wrap {
+        background-color: #00000078;
+        height: 100%;
+        z-index: 2;
+        .carousel {
+            z-index: -1;
+            .img-1 {
+                background-image: url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 100vh;
+            }
+            .img-2 {
+                background-image: url(https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 100vh;
+            }
+            .img-3 {
+                background-image: url(https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=875&q=80);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 100vh;
+            }
+        }
+        
+        .home-text {
+            position: absolute;
+            top: 35%;
+            left: 0;
+            right: 0;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+
+            h1 {
+                color: #fff;
+                font-size: 5rem;
+                font-family: $roboto;
+                font-weight: bold;
+                margin-bottom: 10vmin;
+            }
+            .btn-grad {
+                background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+                margin: 10px;
+                padding: 15px 30px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+                background-size: 200% auto;
+                border: none;       
+                border-radius: 3px;
+                display: block;
+                &:hover{
+                    background-position: right center; /* change the direction of the change here */
+                    color: #fff;
+                    text-decoration: none;
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+    
+}

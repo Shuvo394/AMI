@@ -1,0 +1,88 @@
+
+
+@media (max-width: 769px) {
+    header .navbar .navbar-nav .nav-item .nav-link {
+        padding-left: 0;
+        margin: 1rem 0;
+    }
+    .home .home-bg-wrap .home-text h1 {
+        font-size: 4rem;
+    }
+    .services-2 .ser-2-wrap .ser-2-left-box h3 {
+        font-size: 1.5rem;
+    }
+    .services-2 .ser-2-wrap .ser-2-left-box h4 {
+        font-size: 14px;
+    }
+    .services-2 .ser-2-wrap .ser-2-left-box p {
+        font-size: 14px;
+    }
+
+    /* About Page */
+    .about .about-bg-wrap .about-wrap h1 {
+        font-size: 4rem;
+    }
+    .about .about-bg-wrap .about-wrap h3 {
+        font-size: 18px;
+        padding: 0 10%;
+    }
+    .feature .feature-wrap .feature-box i {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+    .feature .feature-wrap .feature-box p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .counter .counter-wrap .counter-box h3 {
+        font-size: 3rem;
+    }
+    .counter .counter-wrap .counter-box p {
+        font-size: 14px;
+    }
+    .review .review-wrap .review-box p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .home .home-bg-wrap .home-text h1 {
+        font-size: 2.25rem;
+    }
+    .home .home-bg-wrap .home-text .btn-grad {
+        padding: 10px 20px;
+    }
+    .services .services-wrap .services-header h2 {
+        font-size: 2rem;
+    }
+    .services .services-wrap .services-body .services-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .home .home-bg-wrap .home-text h1 {
+        font-size: 1.5rem;
+    }
+    .home .home-bg-wrap .home-text .btn-grad a {
+        font-size: 12px;
+    }
+
+    /* About Page */
+    .about .about-bg-wrap .about-wrap h1 {
+        font-size: 2.5rem;
+    }
+    .about .about-bg-wrap .about-wrap h3 {
+        font-size: 14px;
+    }
+    .feature .feature-wrap .feature-box {
+        text-align: center;
+    }
+    .counter .counter-wrap .counter-box {
+        margin-bottom: 2rem;
+    }
+    .manager .manager-heading h2 {
+        font-size: 1.5rem;
+    }
+}
