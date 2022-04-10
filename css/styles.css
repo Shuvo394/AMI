@@ -338,6 +338,8 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 }
 
 .counterSec .counter-wrap {
+  padding: 20vmin 0;
+  overflow: hidden;
   background-color: #00000078;
   height: inherit;
   padding: 10rem 0;

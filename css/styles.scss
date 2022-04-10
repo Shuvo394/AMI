@@ -236,6 +236,7 @@ p {
     background-attachment: fixed;
 
     .counter-wrap {
+        @include marginOverflow();
         background-color: #00000078;
         height: inherit;
         padding: 10rem 0;
